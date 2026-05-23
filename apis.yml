@@ -1,0 +1,213 @@
+aid: gem-com
+name: Gem
+url: https://raw.githubusercontent.com/api-evangelist/gem-com/refs/heads/main/apis.yml
+description: >-
+  Gem is an AI-first recruiting platform that bundles a next-generation ATS,
+  recruiting CRM, AI outbound sourcing, scheduling, talent marketing,
+  application review, and talent rediscovery into a single agentic AI hiring
+  system used by more than 1,200 talent acquisition teams. Gem ships a Chrome
+  extension for sourcing, a public REST API (v0) documented at
+  api.gem.com/v0/reference, an integrations marketplace at
+  integrations.gem.com/gem covering ATS, HRIS, scheduling, assessments,
+  background checks, and job distribution, plus a status page and academy.
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Recruiting CRM
+  - ATS
+  - Sourcing
+  - Talent Marketing
+  - Agentic AI
+  - HR Tech
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: gem-com:rest-api
+    name: Gem REST API (v0)
+    description: >-
+      Gem's public REST API (v0) for customer and partner integrations against
+      the Gem recruiting platform. Reference documentation is published at
+      api.gem.com/v0/reference; access is provisioned for Gem customers.
+    humanURL: https://api.gem.com/v0/reference
+    baseURL: https://api.gem.com/v0
+    tags:
+      - REST
+      - Partner API
+      - Recruiting
+    properties:
+      - type: Documentation
+        url: https://api.gem.com/v0/reference
+  - aid: gem-com:ats
+    name: Gem ATS
+    description: >-
+      Next-generation, AI-native applicant tracking system that unifies pipeline
+      management, application review, and interviewer workflows.
+    humanURL: https://www.gem.com
+    baseURL: https://app.gem.com
+    tags:
+      - ATS
+      - Pipeline
+      - Hiring
+    properties:
+      - type: Documentation
+        url: https://www.gem.com
+  - aid: gem-com:recruiting-crm
+    name: Gem Recruiting CRM
+    description: >-
+      Talent CRM for sourcing, nurturing, and re-engaging passive and past
+      candidates with multi-step outreach sequences and analytics.
+    humanURL: https://www.gem.com
+    baseURL: https://app.gem.com
+    tags:
+      - CRM
+      - Sourcing
+      - Outreach
+    properties:
+      - type: Documentation
+        url: https://www.gem.com
+  - aid: gem-com:ai-outbound-sourcing
+    name: Gem AI Outbound Sourcing
+    description: >-
+      Agentic sourcing product that finds and reaches out to candidates across
+      sourcing sites and proprietary signals.
+    humanURL: https://www.gem.com
+    baseURL: https://app.gem.com
+    tags:
+      - Sourcing
+      - Outbound
+      - Agentic AI
+    properties:
+      - type: Documentation
+        url: https://www.gem.com
+  - aid: gem-com:scheduling
+    name: Gem Scheduling
+    description: >-
+      Interview scheduling product that coordinates candidate and interviewer
+      calendars and integrates with CodeSignal and other assessment partners.
+    humanURL: https://www.gem.com
+    baseURL: https://app.gem.com
+    tags:
+      - Scheduling
+      - Interviewing
+    properties:
+      - type: Documentation
+        url: https://www.gem.com
+  - aid: gem-com:full-funnel-analytics
+    name: Gem Full-Funnel Analytics
+    description: >-
+      Recruiting analytics product covering top-of-funnel sourcing through hire,
+      with team, pipeline, source, and DEI reporting.
+    humanURL: https://www.gem.com
+    baseURL: https://app.gem.com
+    tags:
+      - Analytics
+      - Reporting
+      - Recruiting
+    properties:
+      - type: Documentation
+        url: https://www.gem.com
+  - aid: gem-com:talent-marketing
+    name: Gem Talent Marketing
+    description: >-
+      Talent marketing module for landing pages, recruiting events, and
+      candidate nurture campaigns.
+    humanURL: https://www.gem.com
+    baseURL: https://app.gem.com
+    tags:
+      - Talent Marketing
+      - Events
+      - Landing Pages
+    properties:
+      - type: Documentation
+        url: https://www.gem.com
+  - aid: gem-com:ai-application-review
+    name: Gem AI Application Review
+    description: >-
+      Agentic AI worker that screens inbound applications against job criteria
+      and routes qualified candidates into the hiring pipeline.
+    humanURL: https://www.gem.com
+    baseURL: https://app.gem.com
+    tags:
+      - Agentic AI
+      - Screening
+      - Application Review
+    properties:
+      - type: Documentation
+        url: https://www.gem.com
+  - aid: gem-com:ai-talent-rediscovery
+    name: Gem AI Talent Rediscovery
+    description: >-
+      Agentic AI worker that re-surfaces past applicants and silver-medalists
+      against open requisitions.
+    humanURL: https://www.gem.com
+    baseURL: https://app.gem.com
+    tags:
+      - Talent Rediscovery
+      - Agentic AI
+      - Silver Medalists
+    properties:
+      - type: Documentation
+        url: https://www.gem.com
+  - aid: gem-com:chrome-extension
+    name: Gem Chrome Extension
+    description: >-
+      Browser extension that lets recruiters source candidates from LinkedIn
+      and other sites, capture contact data, and push prospects into Gem
+      sequences and the Gem CRM.
+    humanURL: https://www.gem.com
+    baseURL: https://chrome.google.com/webstore
+    tags:
+      - Chrome Extension
+      - Sourcing
+      - Browser
+    properties:
+      - type: Documentation
+        url: https://www.gem.com
+  - aid: gem-com:integrations-marketplace
+    name: Gem Integrations Marketplace
+    description: >-
+      Integrations directory covering ATS, sourcing sites, productivity, HRIS &
+      onboarding, scheduling, background checks, candidate assessments, job
+      advertising, job boards & distribution, and interviewing partners.
+    humanURL: https://integrations.gem.com/gem
+    baseURL: https://integrations.gem.com/gem
+    tags:
+      - Integrations
+      - Marketplace
+      - Partners
+    properties:
+      - type: Documentation
+        url: https://integrations.gem.com/gem
+common:
+  - type: Website
+    url: https://www.gem.com
+  - type: Documentation
+    url: https://api.gem.com/v0/reference
+  - type: Integrations
+    url: https://integrations.gem.com/gem
+  - type: Help
+    url: https://help.gem.com
+  - type: Academy
+    url: https://academy.gem.com/
+  - type: Status
+    url: https://status.gem.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/gem-software/
+integrations:
+  - name: CodeSignal
+  - name: Checkr
+  - name: DocuSign
+  - name: Talent Llama
+  - name: CoderPad
+  - name: BrightHire
+  - name: Lattice
+  - name: Merge
+  - name: Wellfound
+  - name: Greenhouse
+  - name: Lever
+  - name: Workday
+  - name: Ashby
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
