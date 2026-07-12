@@ -180,6 +180,12 @@ apis:
       - type: Documentation
         url: https://integrations.gem.com/gem
 common:
+  - type: TrustCenter
+    url: security/gem-com-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/gem-com-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/gem-com-domain-security.yml
   - type: Website
     url: https://www.gem.com
   - type: Documentation
