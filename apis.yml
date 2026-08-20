@@ -128,6 +128,10 @@ apis:
     baseURL: https://app.gem.com
     tags:
       - Talent Marketing
+      - Event
+      - Landing Pages
+    tags_raw:
+      - Talent Marketing
       - Events
       - Landing Pages
     properties:
@@ -185,6 +189,10 @@ apis:
     humanURL: https://integrations.gem.com/gem
     baseURL: https://integrations.gem.com/gem
     tags:
+      - Integration
+      - Marketplace
+      - Partners
+    tags_raw:
       - Integrations
       - Marketplace
       - Partners
