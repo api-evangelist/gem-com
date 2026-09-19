@@ -41,6 +41,13 @@ tags:
   - Sourcing
   - Talent Marketing
   - Agentic AI
+  - Human Resources
+tags_raw:
+  - Recruiting CRM
+  - ATS
+  - Sourcing
+  - Talent Marketing
+  - Agentic AI
   - HR Tech
 created: '2026-05-23'
 modified: '2026-05-23'
@@ -69,6 +76,10 @@ apis:
     humanURL: https://www.gem.com
     baseURL: https://app.gem.com
     tags:
+      - ATS
+      - Pipelines
+      - Hiring
+    tags_raw:
       - ATS
       - Pipeline
       - Hiring
