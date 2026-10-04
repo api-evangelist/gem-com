@@ -37,11 +37,12 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gem-com.png
 tags:
   - Recruiting CRM
-  - ATS
+  - Applicant Tracking
   - Sourcing
   - Talent Marketing
-  - Agentic AI
+  - AI Agents
   - Human Resources
+  - Recruiting
 tags_raw:
   - Recruiting CRM
   - ATS
@@ -49,6 +50,7 @@ tags_raw:
   - Talent Marketing
   - Agentic AI
   - HR Tech
+  - Recruiting
 created: '2026-05-23'
 modified: '2026-05-23'
 specificationVersion: '0.23'
@@ -76,7 +78,7 @@ apis:
     humanURL: https://www.gem.com
     baseURL: https://app.gem.com
     tags:
-      - ATS
+      - Applicant Tracking
       - Pipelines
       - Hiring
     tags_raw:
@@ -108,6 +110,10 @@ apis:
     humanURL: https://www.gem.com
     baseURL: https://app.gem.com
     tags:
+      - Sourcing
+      - Outbound
+      - AI Agents
+    tags_raw:
       - Sourcing
       - Outbound
       - Agentic AI
@@ -167,6 +173,10 @@ apis:
     humanURL: https://www.gem.com
     baseURL: https://app.gem.com
     tags:
+      - AI Agents
+      - Screening
+      - Application Review
+    tags_raw:
       - Agentic AI
       - Screening
       - Application Review
@@ -181,6 +191,10 @@ apis:
     humanURL: https://www.gem.com
     baseURL: https://app.gem.com
     tags:
+      - Talent Rediscovery
+      - AI Agents
+      - Silver Medalists
+    tags_raw:
       - Talent Rediscovery
       - Agentic AI
       - Silver Medalists
