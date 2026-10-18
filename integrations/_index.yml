@@ -53,7 +53,7 @@
     - connectors/applications/gem
     vendor_link: https://www.gem.com/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
 - slug: gem-com-slack-own
   label: Slack (own)
