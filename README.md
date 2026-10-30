@@ -1,4 +1,4 @@
-# gem-com
+# Gem
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Gem (Gem.com) — talent CRM + sourcing platform
+Gem is an AI-first recruiting platform that bundles a next-generation ATS, recruiting CRM, AI outbound sourcing, scheduling, talent marketing, application review, and talent rediscovery into a single agentic AI hiring system used by more than 1,200 talent acquisition teams. Gem ships a Chrome extension for sourcing, a public REST API (v0) documented at api.gem.com/v0/reference, an integrations marketplace at integrations.gem.com/gem covering ATS, HRIS, scheduling, assessments, background checks, and job distribution, plus a status page and academy.
+
+**Areas:** Recruiting CRM · Applicant Tracking · Sourcing · Talent Marketing · AI Agents · Human Resources · Recruiting
+
+## Gem on APIs.io
+
+Everything profiled for Gem is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gem-com/](https://apis.io/providers/gem-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Gem REST API (v0)](https://apis.io/apis/gem-com/rest-api/) — Gem's public REST API (v0) for customer and partner integrations against the Gem recruiting platform. Reference documentation is published at…
+- [Gem ATS](https://apis.io/apis/gem-com/ats/) — Next-generation, AI-native applicant tracking system that unifies pipeline management, application review, and interviewer workflows.
+- [Gem Recruiting CRM](https://apis.io/apis/gem-com/recruiting-crm/) — Talent CRM for sourcing, nurturing, and re-engaging passive and past candidates with multi-step outreach sequences and analytics.
+- [Gem AI Outbound Sourcing](https://apis.io/apis/gem-com/ai-outbound-sourcing/) — Agentic sourcing product that finds and reaches out to candidates across sourcing sites and proprietary signals.
+- [Gem Scheduling](https://apis.io/apis/gem-com/scheduling/) — Interview scheduling product that coordinates candidate and interviewer calendars and integrates with CodeSignal and other assessment partners.
+- [Gem Full-Funnel Analytics](https://apis.io/apis/gem-com/full-funnel-analytics/) — Recruiting analytics product covering top-of-funnel sourcing through hire, with team, pipeline, source, and DEI reporting.
+- [Gem Talent Marketing](https://apis.io/apis/gem-com/talent-marketing/) — Talent marketing module for landing pages, recruiting events, and candidate nurture campaigns.
+- [Gem AI Application Review](https://apis.io/apis/gem-com/ai-application-review/) — Agentic AI worker that screens inbound applications against job criteria and routes qualified candidates into the hiring pipeline.
+- [Gem AI Talent Rediscovery](https://apis.io/apis/gem-com/ai-talent-rediscovery/) — Agentic AI worker that re-surfaces past applicants and silver-medalists against open requisitions.
+- [Gem Chrome Extension](https://apis.io/apis/gem-com/chrome-extension/) — Browser extension that lets recruiters source candidates from LinkedIn and other sites, capture contact data, and push prospects into Gem sequences and the…
+- [Gem Integrations Marketplace](https://apis.io/apis/gem-com/integrations-marketplace/) — Integrations directory covering ATS, sourcing sites, productivity, HRIS & onboarding, scheduling, background checks, candidate assessments, job advertising,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [gem-com](https://apis.io/servers/gem-com/gem-com/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gem Com Domain Security](https://apis.io/security/gem-com/gem-com-domain-security/)
+- [Gem Com Trust Center](https://apis.io/security/gem-com/gem-com-trust-center/)
+- [Gem Com Vulnerability Disclosure](https://apis.io/security/gem-com/gem-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Gem Com Plans Pricing](https://apis.io/plans/gem-com/gem-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Gem Com Rate Limits](https://apis.io/rate-limits/gem-com/gem-com-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Gem Com Finops](https://apis.io/finops/gem-com/gem-com-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.gem.com)
+- [Documentation](https://api.gem.com/v0/reference)
+- [Blog](https://www.gem.com/blog)
+
+## API Evangelist rating
+
+**Kin Score 14.1** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 13.2 |
+
+**Agent readiness 12.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 16.7** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gem-com/](https://apis.io/providers/gem-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Gem: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gem-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
